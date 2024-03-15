@@ -1,0 +1,89 @@
+.Person1Div{
+    display: flex;
+   
+    width: 900px;
+    justify-content: space-between;
+  
+
+}
+.FullDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+gap: 90px;
+
+    
+}
+.person1{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.941);
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text1 h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+.cards{
+    width: 100px;
+    height: 110px;
+}
+.CardDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+.CentrCard{
+    width: 100px;
+    height: 50;
+    padding: 3px;
+}
+.CardTextDiv2{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.CardDiv{
+    padding-top: 28px;
+}
+.CardCentre{
+    width: 800px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    width: 120px;
+    height: 70px;
+    background-color: black;
+    color: rgb(239, 0, 0);
+    border-radius: 35px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn:active{
+    background-color: rgb(59, 0, 0); 
+    transform: scale(0.8)
+}
+.buttonDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
